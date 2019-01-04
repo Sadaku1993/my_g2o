@@ -1,0 +1,678 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3614215882/fast"
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3614215882.dir/build.make CMakeFiles/cmTryCompileExec3614215882.dir/build
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3614215882.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3614215882.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec3614215882.dir/CheckSymbolExists.cxx.o] エラー 1
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec3614215882/fast] エラー 2
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1658041467/fast"
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1658041467.dir/build.make CMakeFiles/cmTryCompileExec1658041467.dir/build
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1658041467.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1658041467.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec1658041467.dir/CheckSymbolExists.cxx.o] エラー 1
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec1658041467/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec866754820/fast"
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTryCompileExec866754820.dir/build.make CMakeFiles/cmTryCompileExec866754820.dir/build
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec866754820.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec866754820.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec866754820.dir/CheckSymbolExists.cxx.o] エラー 1
+make[2]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec866754820/fast] エラー 2
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3948130142/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3948130142.dir/build.make CMakeFiles/cmTryCompileExec3948130142.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3948130142.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3948130142.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3948130142.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3948130142/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4270723872/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4270723872.dir/build.make CMakeFiles/cmTryCompileExec4270723872.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4270723872.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4270723872.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4270723872.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4270723872/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1705095804/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1705095804.dir/build.make CMakeFiles/cmTryCompileExec1705095804.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1705095804.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1705095804.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1705095804.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1705095804/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3004822544/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3004822544.dir/build.make CMakeFiles/cmTryCompileExec3004822544.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3004822544.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3004822544.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_WIN' was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3004822544.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3004822544/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec260354468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec260354468.dir/build.make CMakeFiles/cmTryCompileExec260354468.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec260354468.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec260354468.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_QWS' was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec260354468.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec260354468/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2045230612/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2045230612.dir/build.make CMakeFiles/cmTryCompileExec2045230612.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2045230612.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2045230612.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_MAC' was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2045230612.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2045230612/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3674664927/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3674664927.dir/build.make CMakeFiles/cmTryCompileExec3674664927.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3674664927.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3674664927.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_WIN' was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3674664927.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3674664927/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3892924890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3892924890.dir/build.make CMakeFiles/cmTryCompileExec3892924890.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3892924890.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3892924890.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_QWS' was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3892924890.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3892924890/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3110107875/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3110107875.dir/build.make CMakeFiles/cmTryCompileExec3110107875.dir/build
+make[1]: Entering directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3110107875.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3110107875.dir/CheckSymbolExists.cxx.o -c /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function 'int main(int, char**)':
+/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: 'Q_WS_MAC' was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: Leaving directory `/home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec3110107875.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec3110107875/fast] Error 2
+
+File /home/ubuntu/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3192885160/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3192885160.dir/build.make CMakeFiles/cmTryCompileExec3192885160.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/local/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3192885160.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec3192885160.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3192885160.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3192885160/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2726421045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2726421045.dir/build.make CMakeFiles/cmTryCompileExec2726421045.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/local/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2726421045.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2726421045.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2726421045.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2726421045/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec815600812/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec815600812.dir/build.make CMakeFiles/cmTryCompileExec815600812.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/local/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec815600812.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec815600812.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec815600812.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec815600812/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2446879751/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2446879751.dir/build.make CMakeFiles/cmTryCompileExec2446879751.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2446879751.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2446879751.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2446879751.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2446879751/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2634686305/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2634686305.dir/build.make CMakeFiles/cmTryCompileExec2634686305.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2634686305.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2634686305.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2634686305.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2634686305/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4077544492/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4077544492.dir/build.make CMakeFiles/cmTryCompileExec4077544492.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4077544492.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4077544492.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4077544492.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec4077544492/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec412248458/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec412248458.dir/build.make CMakeFiles/cmTryCompileExec412248458.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec412248458.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec412248458.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec412248458.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec412248458/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2128428791/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2128428791.dir/build.make CMakeFiles/cmTryCompileExec2128428791.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2128428791.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2128428791.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2128428791.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2128428791/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec79196624/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec79196624.dir/build.make CMakeFiles/cmTryCompileExec79196624.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec79196624.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -DLAPACK_USE_F2C -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec79196624.dir/CheckSymbolExists.cxx.o -c /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec79196624.dir/CheckSymbolExists.cxx.o] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec79196624/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/mapping/my_g2o/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

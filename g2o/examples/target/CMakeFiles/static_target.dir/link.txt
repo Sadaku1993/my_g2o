@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++0x  -Wall -W -O3 -DNDEBUG    CMakeFiles/static_target.dir/static_target.cpp.o  -o ../../../bin/static_target -rdynamic ../../../lib/libg2o_core.so ../../../lib/libg2o_solver_cholmod.so ../../../lib/libg2o_core.so ../../../lib/libg2o_stuff.so -lrt -lcholmod -lamd -lcolamd -lcamd -lccolamd -lblas -llapack -Wl,-rpath,/home/amsl/my_ros_pkg/my_g2o/lib 
